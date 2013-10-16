@@ -21,7 +21,7 @@
 
 ifeq ($(CM_BUILD),)
 ifeq ($(TARGET_PREBUILT_KERNEL),)
-LOCAL_KERNEL := device/asus/flo-kernel/kernel
+LOCAL_KERNEL := kernel/google/msm
 else
 LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif

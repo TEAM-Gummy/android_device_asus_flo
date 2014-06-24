@@ -48,8 +48,8 @@ BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=flo user_
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000
 
 # Try to build the kernel
-TARGET_KERNEL_SOURCE := kernel/google/msm
-TARGET_KERNEL_CONFIG := cyanogen_flo_defconfig
+TARGET_KERNEL_SOURCE := kernel/asus/flo
+TARGET_KERNEL_CONFIG := gummy_flo_defconfig
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := Linaro-4.8
 
 BOARD_USES_ALSA_AUDIO:= true

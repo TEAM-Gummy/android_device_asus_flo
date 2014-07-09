@@ -132,7 +132,7 @@ TARGET_FORCE_CPU_UPLOAD := true
 -include vendor/asus/flo/BoardConfigVendor.mk
 
 #TWRP config:
-DEVICE_RESOLUTION := 1080x1920
+DEVICE_RESOLUTION := 1200x1920
 BOARD_HAS_NO_REAL_SDCARD := true
 RECOVERY_SDCARD_ON_DATA := true
 TW_NO_USB_STORAGE := true
